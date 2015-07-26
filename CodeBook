@@ -42,108 +42,114 @@ Contains the names of the activities the subjects performed. Every subject perfo
 
 -tBodyAccMeanX, tBodyAccMeanY, tBodyAccMeanZ
 Mean of the mean body acceleration (in X, Y, and Z direction, respectively) captured with the accelerometer and 
-calculated from the time domain.
+calculated from the time domain (unit: g).
 
 -tBodyAccStdX, tBodyAccStdY, tBodyAccStdZ
 Mean of the standard deviation of the body acceleration (in X, Y, and Z direction, respectively) captured with the 
-accelerometer and calculated from the time domain.
+accelerometer and calculated from the time domain (unit: g).
 
 -tGravityAccMeanX, tGravityAccMeanY, tGravityAccMeanZ
 Mean of the mean gravitational motion component of the triaxial acceleration (in X, Y, and Z direction, respectively)  
-captured with the accelerometer and calculated from the time domain.
+captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tGravityAccStdX, tGravityAccStdY, tGravityAccStdZ
 Mean of the standard deviation of the gravitational motion component of the triaxial acceleration (in X, Y, and Z direction, 
-respectively) captured with the accelerometer and calculated from the time domain.
+respectively) captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tBodyAccJerkMeanX, tBodyAccJerkMeanY, tBodyAccJerkMeanZ
 Mean of the mean jerk signals resulting from the derivative (in time) of the triaxial acceleration (in X, Y, and Z direction, 
-respectively) captured with the accelerometer and calculated from the time domain.
+respectively) captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tBodyAccJerkStdX, tBodyAccJerkStdY, tBodyAccJerkStdZ
 Mean of the standard deviation of the jerk signals resulting from the derivative (in time) of the triaxial acceleration 
-(in X, Y, and Z direction, respectively) captured with the accelerometer and calculated from the time domain.
+(in X, Y, and Z direction, respectively) captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tBodyGyroMeanX, tBodyGyroMeanY, tBodyGyroMeanZ
 Mean of the mean triaxial angular velocity (in X, Y, and Z direction, respectively) captured with the gyroscope 
-and calculated from the time domain.
+and calculated from the time domain (unit: radians/seconds).
 
 -tBodyGyroStdX, tBodyGyroStdY, tBodyGyroStdZ
 Mean of the standard deviation of the triaxial angular velocity (in X, Y, and Z direction, respectively) captured 
-with the gyroscope and calculated from the time domain.
+with the gyroscope and calculated from the time domain (unit: radians/seconds).
 
 -tBodyGyroJerkMeanX, tBodyGyroJerkMeanY, tBodyGyroJerkMeanZ
 Mean of the mean jerk signals resulting from the derivative (in time) of the triaxial angular velocity (in X, Y, and 
-Z direction, respectively) captured with the gyroscope and calculated from the time domain. 
+Z direction, respectively) captured with the gyroscope and calculated from the time domain (unit: radians/seconds). 
 
 -tBodyGyroJerkStdX, tBodyGyroJerkStdY, tBodyGyroJerkStdZ
 Mean of the standard deviation of jerk signals resulting from the derivative (in time) of the triaxial angular velocity 
-(in X, Y, and Z direction, respectively) captured with the gyroscope and calculated from the time domain.
+(in X, Y, and Z direction, respectively) captured with the gyroscope and calculated from the time domain 
+(unit: radians/seconds).
 
 -tBodyAccMagMean, tBodyAccMagStd
 Means of the mean and standard deviation, respectively, of the magnitude of the body motion component of the triaxial 
-acceleration captured with the accelerometer and calculated from the time domain.
+acceleration captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tGravityAccMagMean, tGravityAccMagStd
 Means of the mean and standard deviation, respectively, of the magnitude of the gravitational motion component of the 
-triaxial acceleration captured with the accelerometer and calculated from the time domain.
+triaxial acceleration captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tBodyAccJerkMagMean, tBodyAccJerkMagStd
 Means of the mean and standard deviation, respectively, of the magnitude of the jerk signals resulting from the derivative 
-(in time) of the triaxial acceleration captured with the accelerometer and calculated from the time domain.
+(in time) of the triaxial acceleration captured with the accelerometer and calculated from the time domain (unit: g).
 
 -tBodyGyroMagMean, tBodyGyroMagStd
-Mean of the mean magnitude of the triaxial angular velocity captured with the gyroscope and calculated from the time domain.
+Mean of the mean magnitude of the triaxial angular velocity captured with the gyroscope and calculated from the time domain
+(unit: radians/seconds).
 
 -tBodyGyroJerkMagMean, tBodyGyroJerkMagStd     
 Means of the mean and standard deviation, respectively, of the magnitude of jerk signals resulting from the derivative 
-(in time) of the triaxial angular velocity captured with the gyroscope and calculated from the time domain.
+(in time) of the triaxial angular velocity captured with the gyroscope and calculated from the time domain (unit: 
+radians/seconds).
 
 -fBodyAccMeanX, fBodyAccMeanY, fBodyAccMeanZ           
 Mean of the mean body motion component of the triaxial acceleration (in X, Y, and Z direction, respectively)  
 captured with the accelerometer and calculated from frequency domain (resulting from fast fourier transform of the 
-respective time domain signals).
+respective time domain signals) (unit: g).
 
 -fBodyAccStdX, fBodyAccStdY, fBodyAccStdZ            
 Mean of the standard deviation of the body motion component of the triaxial acceleration (in X, Y, and Z direction, 
 respectively) captured with the accelerometer and calculated from the frequency domain (resulting from fast fourier 
-transform of the respective time domain signals).
+transform of the respective time domain signals) (unit: g).
 
 -fBodyAccJerkMeanX, fBodyAccJerkMeanY, fBodyAccJerkMeanZ       
 Mean of the mean jerk signals resulting from the derivative (in time) of the triaxial acceleration (in X, Y, and Z 
 direction, respectively) captured with the accelerometer and calculated from the frequency domain (resulting from 
-fast fourier transform of the respective time domain signals).
+fast fourier transform of the respective time domain signals) (unit: g).
 
 -fBodyAccJerkStdX, fBodyAccJerkStdY, fBodyAccJerkStdZ
 Mean of the standard deviation of jerk signals resulting from the derivative (in time) of the triaxial acceleration 
 (in X, Y, and Z direction, respectively) captured with the accelerometer and calculated from the frequency domain 
-(resulting from fast fourier transform of the respective time domain signals).
+(resulting from fast fourier transform of the respective time domain signals) (unit: g).
 
 -fBodyGyroMeanX, fBodyGyroMeanY, fBodyGyroMeanZ
 Mean of the mean triaxial angular velocity (in X, Y, and Z direction, respectively) captured with the gyroscope 
-and calculated from the frequency domain (resulting from fast fourier transform of the respective time domain signals).
+and calculated from the frequency domain (resulting from fast fourier transform of the respective time domain signals)
+(unit: radians/seconds).
 
 -fBodyGyroStdX, fBodyGyroStdY, fBodyGyroStdZ
 Mean of the standard deviation of the triaxial angular velocity (in X, Y, and Z direction, respectively) captured 
 with the gyroscope and calculated from the frequency domain (resulting from fast fourier transform of the respective time 
-domain signals).
+domain signals) (unit: radians/seconds).
 
 -fBodyAccMagMean, fBodyAccMagStd
 Means of the mean and standard deviation, respectively, of the magnitude of the body motion component of the triaxial 
 acceleration (in X, Y, and Z direction, respectively) captured with the accelerometer and calculated from frequency 
-domain (resulting from fast fourier transform of the respective time domain signals).
+domain (resulting from fast fourier transform of the respective time domain signals) (unit: g).
 
 -fBodyAccJerkMagMean, fBodyAccJerkMagStd
 Means of the mean and standard deviation, respectively, of the magnitude of the jerk signals resulting from the derivative 
 (in time) of the triaxial acceleration (in X, Y, and Z direction, respectively) captured with the accelerometer and 
-calculated from the frequency domain (resulting from fast fourier transform of the respective time domain signals).
+calculated from the frequency domain (resulting from fast fourier transform of the respective time domain signals)
+(unit: g).
 
 -fBodyGyroMagMean, fBodyGyroMagStd
 Means of the mean and the standard deviation, respectively, of the magnitude of the triaxial angular velocity (in X, Y, and 
 Z direction, respectively) captured with the gyroscope and calculated from the frequency domain (resulting from fast fourier 
-transform of the respective time domain signals).
+transform of the respective time domain signals) (unit: radians/seconds).
 
 -fBodyGyroJerkMagMean, fBodyBodyGyroJerkMagStd
 Means of the mean and standard deviation, respectively, of the magnitude of the jerk signals resulting from the derivative 
 (in time) of the triaxial angular velocity (in X, Y, and Z direction, respectively) captured with the gyroscope and 
-calculated from the frequency domain (resulting from fast fourier transform of the respective time domain signals).
+calculated from the frequency domain (resulting from fast fourier transform of the respective time domain signals)
+(unit: radians/seconds).
